@@ -1,6 +1,8 @@
 const { getWeth } = require("./getWeth.js")
 
-async function main() {}
+async function main() {
+    await getWeth()
+}
 
 main()
     .then(() => process.exit(0))
